@@ -1,0 +1,1 @@
+SELECT * FROM books WHERE publish_date >= '2021-01-01' AND publish_date <= ('2021-01-30' + INTERVAL 30 DAY);
